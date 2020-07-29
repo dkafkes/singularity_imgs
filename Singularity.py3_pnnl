@@ -24,6 +24,7 @@ Version ubuntu16.04-py3-dmda
 
 %post
     # add wilson cluster mount points
+    # will it work with added comment?
     mkdir /scratch /data /lfstev
 
     # apt-get
@@ -32,7 +33,6 @@ Version ubuntu16.04-py3-dmda
 
     # pip
     python3 -m pip install --upgrade setuptools pip
-    python3 -m pip install numpy pandas argparse matplotlib statsmodels.api warnings mlxtend notebook ipython scikit-learn
+    python3 -m pip install numpy pandas argparse matplotlib warnings mlxtend statsmodels notebook ipython scikit-learn seaborn scikit-image
     python3 -m pip install --no-cache-dir --upgrade tf-nightly-gpu-2.0-preview tf-agents-nightly tfp-nightly tensorflow-datasets
-    python3 -m pip install --no-cache-dir matplotlib seaborn scikit-image
     python3 -m pip install --no-cache-dir 'gym[atari,box2d,classic_control]'
