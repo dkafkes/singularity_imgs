@@ -34,5 +34,7 @@ Version ubuntu16.04-py3-dmda
     # pip
     python3 -m pip install --upgrade setuptools pip
     python3 -m pip install numpy pandas argparse matplotlib mlxtend statsmodels notebook ipython scikit-learn seaborn scikit-image
-    python3 -m pip install --no-cache-dir --upgrade tf-nightly-gpu-2.0-preview tf-agents-nightly tfp-nightly tensorflow-datasets
-    python3 -m pip install --no-cache-dir 'gym[atari,box2d,classic_control]'
+    
+    #maybe eventually
+    #python3 -m pip install --no-cache-dir --upgrade tf-nightly-gpu-2.0-preview tf-agents-nightly tfp-nightly tensorflow-datasets
+    #python3 -m pip install --no-cache-dir 'gym[atari,box2d,classic_control]'
